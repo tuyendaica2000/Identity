@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /welcome
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/order_eat"
+    username: root
+    password: 123456
+
+jwt:
+  signerKey: "Z4GR1dsPJT9hP93Tit1OA5Dx7pc4o8ylKCKe8Fep4dxMq5kdMXYAuZncDUSAnuiM"
